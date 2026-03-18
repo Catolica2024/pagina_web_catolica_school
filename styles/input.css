@@ -1,1 +1,42 @@
 @import "tailwindcss";
+
+@font-face {
+    font-family: 'BreeBold';
+    src: url('../public/fonts/Bree\ Bold.otf');
+}
+
+@font-face {
+    font-family: 'BreeRegular';
+    src: url('../public/fonts/Bree\ Regular.otf');
+}
+
+@font-face {
+    font-family: 'Clanpro';
+    src: url('../public/fonts/clanpro-news.ttf');
+}
+
+@font-face {
+    font-family: 'Helvetica';
+    src: url('../public/fonts/HelveticaNeueLTCom-HvEx.ttf');
+}
+
+@theme {
+    --color-primaryBlue: #1B5CFF;
+    --color-primaryGreen: #36A2BC;
+    --color-primaryYellow: #F4DA40;
+    --color-textBlueDark: hsl(223 60% 20%);
+    --color-backWhite: hsl(200 10% 92%);
+    --color-textAtenuadoGris: hsl(220 10% 45%);
+    --color-naranjaDestructive: hsl(15 100% 61%);
+    --color-bordesGenerales: hsl(210 15% 88%);
+    --color-capaOscuraHero: hsl(223 80% 18%);
+    --color-colorWhatsapp: hsl(136 100% 37%);
+    --color-beigeComplemento: hsl(27 35% 61%);
+    --color-grisComplemnto: hsl(204 6% 78%);
+    --color-grisOscuro: hsl(204 6% 15.5%);
+
+    --font-breeBold: 'BreeBold';
+    --font-breeRegular: 'BreeRegular';
+    --font-clanpro: 'Clanpro';
+    --font-helvetica: 'Helvetica';
+}
